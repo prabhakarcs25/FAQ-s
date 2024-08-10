@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(126, 185, 235);
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6rem;
+}
+.container {
+    background-color: rgb(183, 229, 204);
+    padding: 4px 16px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px rgb(100, 104, 190);
+    cursor: pointer;
+
+}
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-solid {
+    margin-right: 25px;
+
+}
+.fa-solid.active {
+    transform: rotate(180deg);
+}
+
+.answer {
+    color: #666;
+    max-height: 0;
+    overflow: hidden;
+}
+.answer.active {
+    max-height: fit-content;
+}
